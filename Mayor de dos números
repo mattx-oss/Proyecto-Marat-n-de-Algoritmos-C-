@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b;
+    cout << "Dos numeros: ";
+    cin >> a >> b;
+    if(a > b)
+        cout << "Mayor: " << a;
+    else
+        cout << "Mayor: " << b;
+    return 0;
+}
+
