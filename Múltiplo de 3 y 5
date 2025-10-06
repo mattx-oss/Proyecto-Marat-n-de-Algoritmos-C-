@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << "Numero: ";
+    cin >> n;
+    if(n%3==0 && n%5==0)
+        cout << "Multiplo de 3 y 5";
+    else
+        cout << "No lo es";
+    return 0;
+}
+
