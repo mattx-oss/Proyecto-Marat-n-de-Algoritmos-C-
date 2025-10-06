@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float r;
+    cout << "Radio: ";
+    cin >> r;
+    cout << "Perimetro: " << 2 * 3.1416 * r;
+    return 0;
+}
+
